@@ -1,4 +1,4 @@
-![Banner](./banner.png)
+![Banner](./Vagabond1.jpeg)
 
 <!-- ================================================
      Gabriel-Roledo-ds · GitHub Profile README
