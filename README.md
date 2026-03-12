@@ -1,3 +1,5 @@
+![Banner](./banner.png)
+
 <!-- ================================================
      Gabriel-Roledo-ds · GitHub Profile README
      Aesthetic: Afro Samurai × Cyberpunk 2077
