@@ -10,6 +10,22 @@
   <img src="./dual_ticker.svg" width="100%" />
 </p>
 
+<table>
+  <tr>
+    <td width="35%" align="center">
+      <img src="vagabond2.jpeg" width="100%" />
+    </td>
+    <td width="65%" valign="top" align="left">
+      <h3>Profissional de dados em formação — análise, ciência e engenharia.</h3>
+      <p>
+        Construindo expertise prática em análise e ciência de dados, trabalhando com Python, SQL e Oracle Cloud Infrastructure. Cursando Análise e Ciência de Dados enquanto desenvolvo projetos end-to-end — da ingestão de dados brutos até modelagem preditiva e scoring em tempo real.
+      </p>
+      <p>
+        Focado em transformar dados em decisões. Construindo em público, avançando com propósito.
+      </p>
+    </td>
+  </tr>
+</table>
 
 
 
