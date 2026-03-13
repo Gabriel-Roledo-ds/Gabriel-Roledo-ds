@@ -29,15 +29,9 @@
 
 ## `▸ Arsenal`
 
-```
-# arsenal.json
-
-languages  →  SQL · Python
-cloud      →  OCI Always Free · ATP · Object Storage · OCI Functions
-ml         →  LightGBM · CRISP-DM · KS · Gini · AUC
-pipeline   →  Bronze → Silver → Gold · Real-time Scoring
-certs      →  OCI Foundations · OCI AI Foundations
-```
+<p align="center">
+  <img src="./arsenal.svg" width="100%" />
+</p>
 
 ---
 
@@ -47,12 +41,23 @@ certs      →  OCI Foundations · OCI AI Foundations
 
 ---
 
-<!-- MANGA IMAGE 02 + MISSIONS — side by side -->
+<table>
+  <tr>
+    <td valign="top" width="65%">
+      <h3>▸ Active Missions</h3>
 
-| ![manga-02](https://via.placeholder.com/300x400/0c0c14/1a1a28?text=manga+image+02) | **`▸ Active Missions`** <br/><br/> \| Project \| Status \| Stack \| <br/> \|---\|---\|---\| <br/> \| **Analise de Risco de Credito Oracle** \| 🟢 in progress \| Python · LightGBM · OCI · SQL \| <br/> \| **Analyst Quest** \| 🟡 in development \| Flutter Web · CRISP-DM \| <br/> \| **Daily SQL Series** \| 🔴 live · LinkedIn \| SQL · Storytelling \| |
-|:---:|:---|
+| Project | Status | Stack |
+|---|---|---|
+| **Análise de Risco de Crédito Oracle** | 🟢 in progress | Python · LightGBM · OCI · SQL |
+| **Analyst Quest** | 🟡 in development | Flutter Web · CRISP-DM |
+| **Análise de Performance Spotify** | 🟠 on hold | Python · EDA |
 
----
+  </td>
+    <td valign="top" width="35%" align="center">
+      <img src="Vagabond1.jpg" width="60%" />
+    </td>
+  </tr>
+</table>
 
 ## `▸ Metrics`
 
@@ -70,15 +75,6 @@ certs      →  OCI Foundations · OCI AI Foundations
 
 </div>
 
----
-
-<!-- GIF 02 + SPOTIFY — side by side -->
-<!-- Replace gif-02 with your gif URL -->
-
-| ![gif-02](https://via.placeholder.com/200x200/0c0c14/1a1a28?text=gif+02) | **`▸ Now Playing`** <br/><br/> [![spotify](https://img.shields.io/badge/listening_to-Afro_Samurai_OST-050508?style=for-the-badge&logo=spotify&logoColor=1DB954&labelColor=0a0a18)](https://open.spotify.com) |
-|:---:|:---|
-
----
 
 <!-- GIF 03 — full width before footer -->
 <!-- Replace gif-03 with your gif URL -->
