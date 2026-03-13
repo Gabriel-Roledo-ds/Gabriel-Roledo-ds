@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="130" viewBox="0 0 780 130">
+  <defs>
+    <style>
+      .bg    { fill: #000; }
+      .hdr   { fill: #111; }
+      .border{ fill: none; stroke: #222; stroke-width: 1; }
+      .hborder{ fill: none; stroke: #1a1a1a; stroke-width: 1; }
+      .dot-r { fill: #ff5f57; }
+      .dot-y { fill: #febc2e; }
+      .dot-g { fill: #28c840; }
+      .fname { font-family: 'Courier New', monospace; font-size: 9px; letter-spacing: 1px; fill: #555; }
+      .key   { font-family: 'Courier New', monospace; font-size: 11px; fill: #555; }
+      .arr   { font-family: 'Courier New', monospace; font-size: 11px; fill: #333; }
+      .v-sql { font-family: 'Courier New', monospace; font-size: 11px; fill: #79c0ff; }
+      .v-cld { font-family: 'Courier New', monospace; font-size: 11px; fill: #00e5cc; }
+      .v-crt { font-family: 'Courier New', monospace; font-size: 11px; fill: #3fb950; }
+      .div   { fill: none; stroke: #0f0f0f; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="780" height="130" rx="4" class="bg" stroke="#222" stroke-width="1"/>
+
+  <!-- header bar -->
+  <rect width="780" height="22" rx="4" class="hdr"/>
+  <rect y="16" width="780" height="6" class="hdr"/>
+  <line x1="0" y1="22" x2="780" y2="22" stroke="#1a1a1a" stroke-width="1"/>
+
+  <!-- dots -->
+  <circle cx="12" cy="11" r="4" class="dot-r"/>
+  <circle cx="24" cy="11" r="4" class="dot-y"/>
+  <circle cx="36" cy="11" r="4" class="dot-g"/>
+  <text x="48" y="15" class="fname">arsenal.json</text>
+
+  <!-- row 1: languages -->
+  <text x="16" y="46" class="key">languages</text>
+  <text x="110" y="46" class="arr">→</text>
+  <text x="130" y="46" class="v-sql">SQL  ·  Python</text>
+  <line x1="0" y1="54" x2="780" y2="54" class="div"/>
+
+  <!-- row 2: cloud -->
+  <text x="16" y="72" class="key">cloud</text>
+  <text x="110" y="72" class="arr">→</text>
+  <text x="130" y="72" class="v-cld">OCI Always Free  ·  ATP  ·  Object Storage  ·  OCI Functions</text>
+  <line x1="0" y1="80" x2="780" y2="80" class="div"/>
+
+  <!-- row 3: certs -->
+  <text x="16" y="98" class="key">certs</text>
+  <text x="110" y="98" class="arr">→</text>
+  <text x="130" y="98" class="v-crt">OCI Foundations  ·  OCI AI Foundations</text>
+
+</svg>
