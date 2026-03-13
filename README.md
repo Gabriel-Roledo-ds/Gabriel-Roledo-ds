@@ -11,15 +11,13 @@
     <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=0077b5&labelColor=0a0a0a" />
   </a>
 </p>
----
 
-```
-while(alive):
-    become_who_you_are()
-# — Nietzsche
-```
 
----
+
+<p align="center">
+  <img src="./dual_ticker.svg" width="100%" />
+</p>
+
 
 <!-- MANGA IMAGE 01 — full width, first visual anchor -->
 <!-- Replace the line below with your image -->
