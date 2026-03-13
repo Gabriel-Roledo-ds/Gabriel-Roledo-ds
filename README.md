@@ -1,17 +1,16 @@
 <p align="center">
-  <img src="./Vagabondtopo.jpg" alt="Banner"width="100%" height="180" /> </p>
+  <img src="./Vagabondtopo.jpg" alt="Banner" width="100%" height="180" />
+</p>
 
-<!-- ================================================
-     Gabriel-Roledo-ds · GitHub Profile README
-     Aesthetic: Afro Samurai × Cyberpunk 2077
-     ================================================ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=60&text=GABRIEL%20ROLEDO&fontSize=22&fontColor=ffffff&fontAlignY=55&desc=Data%20Analyst%20%C2%B7%20Data%20Scientist%20in%20progress%20%C2%B7%20OCI%20Certified&descSize=10&descColor=888888&descAlignY=80&width=780" width="100%" />
+</p>
 
-<div align="center">
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:050508,50:0a0a18,100:050508&height=140&section=header&text=GABRIEL%20ROLEDO&fontSize=42&fontColor=00f5ff&fontAlignY=55&animation=fadeIn&desc=Data%20Analyst%20·%20Data%20Scientist%20in%20progress%20·%20OCI%20Certified&descSize=11&descAlignY=80&descColor=4a4860)
-
-</div>
-
+<p align="center">
+  <a href="https://www.linkedin.com/in/gabriel-roledo">
+    <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=0077b5&labelColor=0a0a0a" />
+  </a>
+</p>
 ---
 
 ```
