@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Vagabondtopo.jpg" alt="Banner"width="100%" height="150" /> </p>
+  <img src="./Vagabondtopo.jpg" alt="Banner"width="100%" height="180" /> </p>
 
 <!-- ================================================
      Gabriel-Roledo-ds · GitHub Profile README
