@@ -1,4 +1,4 @@
-<img src="./Vagabondtopo.jpg" alt="Vagabondtopo" width="100%"/>
+<img src="./Vagabondtopo.jpg" alt="Vagabondtopo" width="80%"/>
 
 <!-- ================================================
      Gabriel-Roledo-ds · GitHub Profile README
