@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="40" viewBox="0 0 780 40">
+  <defs>
+    <style>
+      @keyframes scroll-phil {
+        0%   { transform: translateX(0px); }
+        100% { transform: translateX(-1800px); }
+      }
+      @keyframes scroll-data {
+        0%   { transform: translateX(0px); }
+        100% { transform: translateX(-1700px); }
+      }
+      .anim-phil { animation: scroll-phil 32s linear infinite; }
+      .anim-data { animation: scroll-data 28s linear infinite; }
+      .lbl  { font-family: 'Courier New', monospace; font-size: 7px; letter-spacing: 1.5px; fill: #555; }
+      .lbl2 { font-family: 'Courier New', monospace; font-size: 7px; letter-spacing: 1.5px; fill: #00e5cc; opacity: 0.7; }
+      .tp   { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.8px; fill: #cccccc; }
+      .td   { font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: 0.8px; fill: #00e5cc; }
+    </style>
+    <clipPath id="cp1"><rect x="1"   y="0" width="385" height="40"/></clipPath>
+    <clipPath id="cp2"><rect x="394" y="0" width="385" height="40"/></clipPath>
+  </defs>
+
+  <!-- Terminal 1 background -->
+  <rect x="1"   y="1" width="385" height="38" rx="3" fill="#000" stroke="#222" stroke-width="1"/>
+  <rect x="1"   y="1" width="385" height="13" rx="3" fill="#111"/>
+  <rect x="1"   y="8"  width="385" height="6"  fill="#111"/>
+  <circle cx="9"  cy="8" r="2.5" fill="#ff5f57"/>
+  <circle cx="17" cy="8" r="2.5" fill="#febc2e"/>
+  <circle cx="25" cy="8" r="2.5" fill="#28c840"/>
+  <text x="32" y="11" class="lbl">PHILOSOPHY STREAM</text>
+
+  <!-- Terminal 2 background -->
+  <rect x="394" y="1" width="385" height="38" rx="3" fill="#000" stroke="#1a1a1a" stroke-width="1"/>
+  <rect x="394" y="1" width="385" height="13" rx="3" fill="#0a0a0a"/>
+  <rect x="394" y="8"  width="385" height="6"  fill="#0a0a0a"/>
+  <circle cx="402" cy="8" r="2.5" fill="#ff5f57"/>
+  <circle cx="410" cy="8" r="2.5" fill="#febc2e"/>
+  <circle cx="418" cy="8" r="2.5" fill="#28c840"/>
+  <text x="425" y="11" class="lbl2">DATA STREAM</text>
+
+  <!-- Phil ticker -->
+  <g clip-path="url(#cp1)">
+    <g class="anim-phil">
+      <text y="30" class="tp">
+        <tspan x="4">BECOME WHO YOU ARE — NIETZSCHE ▸ EXISTENCE PRECEDES ESSENCE — SARTRE ▸ ONE MUST IMAGINE SISYPHUS HAPPY — CAMUS ▸ AMOR FATI ▸ CHAOS → CREATE STARS ▸ TO MASTER THE WAY IS TO MASTER ONESELF — MUSASHI ▸ THERE IS A REASON I REFUSE TO LOSE ▸        </tspan>
+        <tspan>BECOME WHO YOU ARE — NIETZSCHE ▸ EXISTENCE PRECEDES ESSENCE — SARTRE ▸ ONE MUST IMAGINE SISYPHUS HAPPY — CAMUS ▸ AMOR FATI ▸ CHAOS → CREATE STARS ▸ TO MASTER THE WAY IS TO MASTER ONESELF — MUSASHI ▸ THERE IS A REASON I REFUSE TO LOSE ▸        </tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Data ticker -->
+  <g clip-path="url(#cp2)">
+    <g class="anim-data">
+      <text y="30" class="td">
+        <tspan x="397">DATA CLEANING ▸ FEATURE ENGINEERING ▸ MODEL TRAINING ▸ HYPERPARAMETER TUNING ▸ BRONZE → SILVER → GOLD ▸ LIGHTGBM ▸ KS · GINI · AUC ▸ CRISP-DM ▸ REAL-TIME SCORING ▸ OCI ALWAYS FREE ▸ SQL DAILY SERIES ▸        </tspan>
+        <tspan>DATA CLEANING ▸ FEATURE ENGINEERING ▸ MODEL TRAINING ▸ HYPERPARAMETER TUNING ▸ BRONZE → SILVER → GOLD ▸ LIGHTGBM ▸ KS · GINI · AUC ▸ CRISP-DM ▸ REAL-TIME SCORING ▸ OCI ALWAYS FREE ▸ SQL DAILY SERIES ▸        </tspan>
+      </text>
+    </g>
+  </g>
+
+</svg>
