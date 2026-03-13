@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td width="35%" align="center">
-      <img src="vagabond2.jpeg" width="100%" />
+      <img src="vagabond2.jpeg" width="70%" />
     </td>
     <td width="65%" valign="top" align="left">
       <h3>Profissional de dados em formação — análise, ciência e engenharia.</h3>
@@ -26,32 +26,6 @@
     </td>
   </tr>
 </table>
-
-
-
-## `▸ Philosophy · Vagabond`
-
-<br/>
-
-**"To master the way is to master oneself."**
-
-*— Vagabond · Musashi*
-
-<br/>
-
-*"Live as if every moment would return eternally."*
-
-*— Nietzsche · Eternal Recurrence*
-
----
-
-<!-- GIF 01 + SKILLS — side by side -->
-<!-- Replace gif-01 with your gif URL -->
-
-| ![gif-01](https://via.placeholder.com/220x220/0c0c14/1a1a28?text=gif+01) | **`▸ Skills`** <br/><br/> [![skills](https://skillicons.dev/icons?i=python,mysql,flutter,bash,git,vscode&theme=dark)](https://skillicons.dev) |
-|:---:|:---|
-
----
 
 ## `▸ Arsenal`
 
