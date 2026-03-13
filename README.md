@@ -7,35 +7,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gabriel-roledo">
-    <img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=0077b5&labelColor=0a0a0a" />
-  </a>
-</p>
-
-
-
-<p align="center">
   <img src="./dual_ticker.svg" width="100%" />
 </p>
 
 
-<!-- MANGA IMAGE 01 — full width, first visual anchor -->
-<!-- Replace the line below with your image -->
-![manga-01](https://via.placeholder.com/860x300/0c0c14/1a1a28?text=manga+image+01)
 
----
-
-<!-- DUAL STREAM PANEL -->
-<!-- GitHub does not render animated marquees natively.         -->
-<!-- The streams below are static representations.             -->
-<!-- For the animated version, host this README as a GH Pages  -->
-<!-- site or use a custom SVG with animation.                  -->
-
-> `PHILOSOPHY STREAM` &nbsp; BECOME WHO YOU ARE — NIETZSCHE ▸ EXISTENCE PRECEDES ESSENCE — SARTRE ▸ ONE MUST IMAGINE SISYPHUS HAPPY — CAMUS ▸ AMOR FATI ▸ CHAOS → CREATE STARS ▸ TO MASTER THE WAY IS TO MASTER ONESELF — MUSASHI ▸ THERE IS A REASON I REFUSE TO LOSE ▸
-
-> `DATA STREAM` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DATA CLEANING ▸ FEATURE ENGINEERING ▸ MODEL TRAINING ▸ HYPERPARAMETER TUNING ▸ BRONZE → SILVER → GOLD ▸ LIGHTGBM ▸ KS · GINI · AUC ▸ CRISP-DM ▸ REAL-TIME SCORING ▸ OCI ALWAYS FREE ▸ SQL DAILY SERIES ▸
-
----
 
 ## `▸ Philosophy · Vagabond`
 
