@@ -76,13 +76,9 @@
 </div>
 
 
-<!-- GIF 03 — full width before footer -->
-<!-- Replace gif-03 with your gif URL -->
-<div align="center">
-
-![gif-03](https://via.placeholder.com/860x120/0c0c14/1a1a28?text=gif+03)
-
-</div>
+<p align="center">
+  <img src="./musashi-miyamoto.gif" width="100%" height="150" />
+</p>
 
 ---
 
@@ -95,12 +91,6 @@
 
 <br/>
 
-```
-道は無限だ。歩き続けることが、道そのものになる。
-```
-*The path is infinite. To keep walking — that itself becomes the path.*
-
-<br/>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:050508,50:0a0a18,100:050508&height=100&section=footer&animation=fadeIn)
 
