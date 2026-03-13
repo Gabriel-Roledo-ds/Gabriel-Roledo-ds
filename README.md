@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=60&text=GABRIEL%20ROLEDO&fontSize=22&fontColor=ffffff&fontAlignY=55&desc=Data%20Analyst%20%C2%B7%20Data%20Scientist%20in%20progress%20%C2%B7%20OCI%20Certified&descSize=10&descColor=888888&descAlignY=80&width=780" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=60&text=GABRIEL%20ROLEDO&fontSize=22&fontColor=ffffff&fontAlignY=55&desc=Data%20Analyst%20%C2%B7%20Data%20Scientist%20in%20progress%20%C2%B7%20OCI%20Foundations%20Certified&descSize=10&descColor=888888&descAlignY=80&width=780" width="100%" />
 </p>
 
 <p align="center">
