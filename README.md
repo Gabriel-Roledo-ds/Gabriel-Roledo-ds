@@ -1,4 +1,4 @@
-![Banner](./Vagabond1.jpeg)
+<img src="./Vagabond1.jpeg" alt="Vagabond1" width="100%"
 
 <!-- ================================================
      Gabriel-Roledo-ds · GitHub Profile README
