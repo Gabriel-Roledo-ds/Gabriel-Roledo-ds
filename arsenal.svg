@@ -35,18 +35,18 @@
   <!-- row 1: languages -->
   <text x="16" y="46" class="key">languages</text>
   <text x="110" y="46" class="arr">→</text>
-  <text x="130" y="46" class="v-sql">SQL  ·  Python</text>
+  <text x="140" y="46" class="v-sql">SQL  ·  Python</text>
   <line x1="0" y1="54" x2="780" y2="54" class="div"/>
 
   <!-- row 2: cloud -->
   <text x="16" y="72" class="key">cloud</text>
   <text x="110" y="72" class="arr">→</text>
-  <text x="130" y="72" class="v-cld">OCI Always Free  ·  ATP  ·  Object Storage  ·  OCI Functions</text>
+  <text x="140" y="72" class="v-cld">OCI Always Free  ·  ATP  ·  Object Storage  ·  OCI Functions</text>
   <line x1="0" y1="80" x2="780" y2="80" class="div"/>
 
   <!-- row 3: certs -->
   <text x="16" y="98" class="key">certs</text>
   <text x="110" y="98" class="arr">→</text>
-  <text x="130" y="98" class="v-crt">OCI Foundations  ·  OCI AI Foundations · OCI Data Platform Foundations</text>
+  <text x="140" y="98" class="v-crt">OCI Foundations  ·  OCI AI Foundations · OCI Data Platform Foundations</text>
 
 </svg>
