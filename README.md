@@ -64,12 +64,6 @@ Cursando Análise e Ciência de Dados com aplicação direta em casos reais de c
 
 ## `▸ Metrics`
 
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Gabriel-Roledo-ds&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=050508&title_color=00f5ff&icon_color=00f5ff&text_color=4a4860&ring_color=ff0077"/>
-&nbsp;
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gabriel-Roledo-ds&layout=compact&theme=midnight-purple&hide_border=true&bg_color=050508&title_color=00f5ff&text_color=4a4860"/>
-
 </div>
 
 <div align="center">
