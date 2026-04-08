@@ -47,6 +47,6 @@
   <!-- row 3: certs -->
   <text x="16" y="98" class="key">certs</text>
   <text x="110" y="98" class="arr">→</text>
-  <text x="130" y="98" class="v-crt">OCI Foundations  ·  OCI AI Foundations ·  OCI Data Platform Foundations</text>
+  <text x="130" y="98" class="v-crt">OCI Foundations  ·  OCI AI Foundations · OCI Data Platform Foundations</text>
 
 </svg>
