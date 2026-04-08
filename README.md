@@ -12,14 +12,17 @@
       <img src="vagabond2.jpeg" width="70%" />
     </td>
     <td width="65%" valign="top" align="left">
-      <h3>Profissional de dados em formação — análise, ciência e engenharia.</h3>
+      <h3>Analista de dados com foco em risco de crédito.</h3>
       <p>
-        Construindo expertise prática em análise e ciência de dados, trabalhando com Python, SQL e Oracle Cloud Infrastructure. Cursando Análise e Ciência de Dados enquanto desenvolvo projetos end-to-end — da ingestão de dados brutos até modelagem preditiva.
+       Construindo expertise prática em modelagem preditiva, análise de inadimplência e pipelines orientados a decisão de crédito.
+Trabalho com Python, SQL e Oracle Cloud Infrastructure (OCI Foundations, OCI Data Platform Foundation & AI Foundations Certified), desenvolvendo projetos end-to-end seguindo a metodologia CRISP-DM — da ingestão de dados brutos até modelos de classificação de risco.
+        
+Cursando Análise e Ciência de Dados com aplicação direta em casos reais de crédito: scoring, segmentação de perfis de risco e simulação de políticas de concessão.
       </p>
       <p>
-        Focado em transformar dados em decisões que geram valor para o negócio..
-      </p>
-    </td>
+        
+      
+    
   </tr>
 </table>
 
