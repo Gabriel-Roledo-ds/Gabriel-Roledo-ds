@@ -50,7 +50,7 @@
 |---|---|---|
 | **Análise de Risco de Crédito Oracle** | 🟢 in progress | Python · LightGBM · OCI · SQL |
 | **Analyst Quest** | 🟡 in development | Flutter Web · CRISP-DM |
-| **Análise de Performance Spotify** | 🟠 on hold | Python · EDA |
+
 
   </td>
     <td valign="top" width="35%" align="center">
