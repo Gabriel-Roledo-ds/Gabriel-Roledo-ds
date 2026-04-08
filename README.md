@@ -50,7 +50,7 @@
 |---|---|---|
 | **Análise de Risco de Crédito Oracle** | 🟢 in progress | Python · LightGBM · OCI · SQL |
 | **Analyst Quest** | 🟡 in development | Flutter Web · CRISP-DM |
-
+| **Analise_Violacao_SLA** | 🔵 completed | SQL 
 
   </td>
     <td valign="top" width="35%" align="center">
