@@ -14,10 +14,21 @@
     <td width="65%" valign="top" align="left">
       <h3>Analista de dados com foco em risco de crédito.</h3>
       <p>
-       Construindo expertise prática em modelagem preditiva, análise de inadimplência e pipelines orientados a decisão de crédito.
-Trabalho com Python, SQL e Oracle Cloud Infrastructure (OCI Foundations, OCI Data Platform Foundation & AI Foundations Certified), desenvolvendo projetos end-to-end seguindo a metodologia CRISP-DM — da ingestão de dados brutos até modelos de classificação de risco.
-        
-Cursando Análise e Ciência de Dados com aplicação direta em casos reais de crédito: scoring, segmentação de perfis de risco e simulação de políticas de concessão.
+    ### 👋 Olá, sou o Gabriel Roledo!
+
+Estudante de Ciência de Dados focado em **Análise de Dados, Estatística e Inteligência de Crédito**.
+
+Atualmente, dedico meus estudos à consolidação das bases estatísticas/matemáticas e ao desenvolvimento de portfólio prático focado em **Análise Descritiva e Exploratória (EDA)** aplicadas ao mercado de dados e risco de crédito.
+
+#### 🎯 Foco e Interesses de Negócio
+- Análise de inadimplência, comportamento de carteiras e métricas de risco.
+- Estruturação de análises descritivas para suporte à tomada de decisão.
+- Diagnóstico de dados financeiros utilizando a metodologia CRISP-DM.
+
+#### 🛠️ Stack Técnica & Certificações
+- **Linguagens & Análise:** Python (Pandas, Matplotlib, Seaborn), Estatística Descritiva.
+- **Nuvem & Infraestrutura:** Oracle Cloud Infrastructure (Certified: OCI Foundations | OCI Data Platform Foundation | AI Foundations).
+- **Formação:** Tecnólogo em Ciência de Dados (Fatec) & Ciência de Dados e Analytics (PoD Academy).
       </p>
       <p>
         
