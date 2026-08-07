@@ -81,7 +81,7 @@ Cursando Análise e Ciência de Dados com aplicação direta em casos reais de c
 
 <div align="center">
 
-*"If a daemon told you to run your life again forever...*
+*"If you had to run your life again forever...*
 *would you press* `ENTER`*?"*
 
 *— Nietzsche · The Daemon*
