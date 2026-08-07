@@ -62,9 +62,8 @@ Atualmente, dedico meus estudos à consolidação das bases estatísticas/matem�
 
 | Project | Status | Stack |
 |---|---|---|
-| **Análise de Risco de Crédito Oracle** | 🟢 in progress | Python · LightGBM · OCI · SQL |
-| **Analyst Quest** | 🟡 in development | Flutter Web · CRISP-DM |
-| **Analise_Violacao_SLA** | 🔵 completed | SQL 
+| **Análise do Mercado de Dados 2025** | 🟢 in progress | Python |
+ 
 
   </td>
     <td valign="top" width="35%" align="center">
