@@ -35,7 +35,7 @@
   <!-- row 1: languages -->
   <text x="16" y="46" class="key">languages</text>
   <text x="110" y="46" class="arr">→</text>
-  <text x="140" y="46" class="v-sql">SQL  ·  Python</text>
+  <text x="140" y="46" class="v-sql"> Python</text>
   <line x1="0" y1="54" x2="780" y2="54" class="div"/>
 
   <!-- row 2: cloud -->
