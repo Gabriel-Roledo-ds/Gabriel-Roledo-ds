@@ -62,7 +62,9 @@ Atualmente, dedico meus estudos à consolidação das bases estatísticas/matem�
 
 | Project | Status | Stack |
 |---------|--------|-------|
-| [Análise do Mercado de Dados 2025](https://github.com/Gabriel-Roledo-ds/Analise-State-of-Data-2025 ) | 🟢 in progress | Python |
+| [Análise do Mercado de Dados 2025](https://github.com/Gabriel-Roledo-ds/Analise-State-of-Data-2025) | 🟢 in progress | Python |
+| [Análise dos top 10 países em Inovação Tecnológica](https://github.com/Gabriel-Roledo-ds/indicadores_de_inovacao_tecnologica) | 🟢 in progress | Python |
+
  
 
   </td>
