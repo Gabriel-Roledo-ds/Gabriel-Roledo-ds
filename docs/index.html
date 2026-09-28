@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gabriel Roledo — Portfólio de Dados</title>
+<meta name="description" content="Portfólio de análise de dados de Gabriel Roledo, com foco em risco de crédito." />
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-1:       #2a78d6; /* blue */
+    --series-2:       #eb6834; /* orange - highlight */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-1:       #3987e5;
+      --series-2:       #d95926;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-1:       #3987e5;
+    --series-2:       #d95926;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.5;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 16px 80px;
+  }
+
+  header.hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header.hero h1 {
+    font-size: 28px;
+    margin: 0 0 4px;
+    letter-spacing: 0.01em;
+  }
+  header.hero p.role {
+    color: var(--text-secondary);
+    font-size: 16px;
+    margin: 0 0 18px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface-1);
+    color: var(--text-primary);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .links a:hover { border-color: var(--text-muted); }
+
+  section.intro {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-bottom: 36px;
+    font-size: 15px;
+    color: var(--text-secondary);
+  }
+  section.intro strong { color: var(--text-primary); }
+
+  h2.section-title {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin: 0 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--gridline);
+  }
+
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  .card h3 {
+    font-size: 17px;
+    margin: 0 0 4px;
+  }
+  .card .meta {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin: 0 0 14px;
+  }
+  .card p.insight {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin: 14px 0 0;
+  }
+  .card p.insight strong { color: var(--text-primary); }
+  .card .repo-link {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--series-1);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .card .repo-link:hover { text-decoration: underline; }
+
+  /* Chart styling */
+  .chart-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 2px;
+  }
+  .chart-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin: 0 0 14px;
+  }
+  .bar-row {
+    display: grid;
+    grid-template-columns: 112px 1fr 64px;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 12.5px;
+  }
+  .bar-row .label {
+    color: var(--text-secondary);
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bar-row .label.highlight { color: var(--text-primary); font-weight: 700; }
+  .bar-track {
+    background: var(--gridline);
+    border-radius: 4px;
+    height: 14px;
+    position: relative;
+    overflow: hidden;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: var(--series-1);
+  }
+  .bar-fill.highlight { background: var(--series-2); }
+  .bar-row .value {
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+    font-size: 12px;
+  }
+  .legend {
+    display: flex;
+    gap: 16px;
+    margin-top: 14px;
+    font-size: 12px;
+    color: var(--text-secondary);
+  }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .swatch.blue { background: var(--series-1); }
+  .swatch.orange { background: var(--series-2); }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  footer a { color: var(--text-secondary); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Gabriel Roledo</h1>
+    <p class="role">Analista de Dados&nbsp;|&nbsp;Foco em Risco de Crédito</p>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/gabriel-roledo" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/Gabriel-Roledo-ds" target="_blank" rel="noopener">GitHub</a>
+      <a href="./curriculo-gabriel-roledo.pdf" target="_blank" rel="noopener">Currículo (PDF)</a>
+    </div>
+  </header>
+
+  <section class="intro">
+    Profissional em transição de carreira para dados, com foco em <strong>Análise Descritiva e Exploratória (EDA)</strong> aplicada a risco de crédito. Abaixo, alguns insights reais extraídos dos meus projetos de portfólio — o processo completo, com código e raciocínio, está documentado em cada repositório no GitHub.
+  </section>
+
+  <h2 class="section-title">Projetos em destaque</h2>
+
+  <div class="card">
+    <h3>Análise do Mercado de Dados no Brasil (State of Data 2025/2026)</h3>
+    <p class="meta">EDA de 3.495 respondentes e 388 colunas · metodologia CRISP-DM · Python (Pandas)</p>
+
+    <p class="chart-title">Formação de quem trabalha com dados no Brasil</p>
+    <p class="chart-sub">Número de respondentes por área de formação (n = 3.423)</p>
+
+    <div class="bar-row">
+      <div class="label highlight">TI/Exatas</div>
+      <div class="bar-track"><div class="bar-fill highlight" style="width: 100%"></div></div>
+      <div class="value">1.805 (53%)</div>
+    </div>
+    <div class="bar-row">
+      <div class="label">Outras áreas</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 89.6%"></div></div>
+      <div class="value">1.618 (47%)</div>
+    </div>
+
+    <p class="insight"><strong>Quase metade do mercado de dados no Brasil (47%) vem de formação fora de TI/Exatas</strong> — contrariando a percepção de que vir de Computação ou Engenharia é pré-requisito para entrar na área.</p>
+
+    <a class="repo-link" href="https://github.com/Gabriel-Roledo-ds/Analise-State-of-Data-2025" target="_blank" rel="noopener">Ver notebook completo →</a>
+  </div>
+
+  <div class="card">
+    <h3>Indicadores de Inovação Tecnológica (Banco Mundial &amp; WIPO)</h3>
+    <p class="meta">Consolidação de 7 bases públicas · 20 anos de série histórica · Python (Pandas)</p>
+
+    <p class="chart-title">Top 10 países — pedidos de marcas registradas (WIPO, 2024)</p>
+    <p class="chart-sub">Volume de pedidos por país</p>
+
+    <div class="bar-row">
+      <div class="label">China</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 100%"></div></div>
+      <div class="value">7.314.677</div>
+    </div>
+    <div class="bar-row">
+      <div class="label">Estados Unidos</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 11.5%"></div></div>
+      <div class="value">840.047</div>
+    </div>
+    <div class="bar-row">
+      <div class="label">Rússia</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 7.7%"></div></div>
+      <div class="value">559.679</div>
+    </div>
+    <div class="bar-row">
+      <div class="label">Índia</div>
+      <div class="bar-track"><div class="bar-fill" style="width: 7.3%"></div></div>
+      <div class="value">533.417</div>
+    </div>
+    <div class="bar-row">
+      <div class="label highlight">Brasil</div>
+      <div class="bar-track"><div class="bar-fill highlight" style="width: 6.0%"></div></div>
+      <div class="value">436.355</div>
+    </div>
+
+    <div class="legend">
+      <span><span class="swatch blue"></span> Top 10 geral</span>
+      <span><span class="swatch orange"></span> Brasil (5º lugar)</span>
+    </div>
+
+    <p class="insight"><strong>China lidera com folga extrema</strong> — quase 9x o 2º colocado (EUA). <strong>O Brasil aparece em 5º lugar mundial</strong>, à frente de Alemanha, França e Reino Unido nesse indicador.</p>
+
+    <a class="repo-link" href="https://github.com/Gabriel-Roledo-ds/Analise-dos-top-10-paises-em-Inovacao-Tecnologica" target="_blank" rel="noopener">Ver notebooks completos →</a>
+  </div>
+
+  <footer>
+    Ourinhos – SP · <a href="mailto:gabrielroledo.ds@gmail.com">gabrielroledo.ds@gmail.com</a>
+  </footer>
+
+</div>
+</body>
+</html>
