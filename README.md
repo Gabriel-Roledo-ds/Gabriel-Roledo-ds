@@ -1,106 +1,55 @@
-<p align="center">
-  <img src="./Vagabondtopo.jpg" alt="Banner" width="100%" height="160" />
-</p>
+# Gabriel Roledo
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=60&text=GABRIEL%20ROLEDO&fontSize=22&fontColor=ffffff&fontAlignY=55&desc=Data%20Analyst%20%C2%B7%20Data%20Scientist%20in%20progress%20%C2%B7%20OCI%20Foundations%20Certified&descSize=10&descColor=888888&descAlignY=80&width=780" width="100%" />
-</p>
+**Analista de Dados · Foco em Risco de Crédito**
 
-<table>
-  <tr>
-    <td width="35%" align="center">
-      <img src="vagabond2.jpeg" width="70%" />
-    </td>
-    <td width="65%" valign="top" align="left">
-      <h3>Analista de dados com foco em risco de crédito.</h3>
-      <p>
-    👋 Olá, sou o Gabriel Roledo!
+Estudante de Ciência de Dados com foco em Análise de Dados, Estatística e Inteligência de Crédito. Atualmente dedicado à consolidação de bases estatísticas/matemáticas e ao desenvolvimento de portfólio prático aplicado à análise de risco de crédito.
 
-Estudante de Ciência de Dados focado em **Análise de Dados, Estatística e Inteligência de Crédito**.
+---
 
-Atualmente, dedico meus estudos à consolidação das bases estatísticas/matemáticas e ao desenvolvimento de portfólio prático focado em **Análise Descritiva e Exploratória (EDA)** aplicadas ao mercado de dados e risco de crédito.
+## Foco e Interesses de Negócio
 
-#### * Foco e Interesses de Negócio
-- Análise de inadimplência, comportamento de carteiras e métricas de risco.
-- Estruturação de análises descritivas para suporte à tomada de decisão.
+- Análise de inadimplência, comportamento de carteiras e métricas de risco (KS, Gini, AUC).
+- Estruturação de análises descritivas e exploratórias (EDA) para suporte à tomada de decisão.
 - Diagnóstico de dados financeiros utilizando a metodologia CRISP-DM.
 
-#### * Stack Técnica & Certificações
-- **Linguagens & Análise:** Python (Pandas, Matplotlib, Seaborn), Estatística Descritiva.
-- **Nuvem & Infraestrutura:** Oracle Cloud Infrastructure (Certified: OCI Foundations | OCI Data Platform Foundation | AI Foundations).
-- **Formação:** Tecnólogo em Ciência de Dados (Fatec) (1º termo) & Ciência de Dados e Analytics (PoD Academy) (cursando). 
-      </p>
-      <p>
-        
-      
-    
-  </tr>
-</table>
+## Stack Técnica
 
-<p align="center">
-  <img src="./dual_ticker.svg" width="100%" />
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white)
 
-## `▸ Arsenal`
+## Certificações
 
-<p align="center">
-  <img src="./arsenal.svg" width="100%" />
-</p>
+- Oracle Cloud Infrastructure (OCI) Foundations Certified
+- Oracle Cloud Infrastructure AI Foundations Certified
+- Oracle Data Platform Foundation Certified
 
----
+## Formação
 
-*"Live as if every moment would return eternally."*
-
-*— Nietzsche · Eternal Recurrence*
+- Tecnólogo em Ciência de Dados — Fatec Ourinhos (em andamento)
+- Análise e Ciência de Dados — PoD Academy (em andamento)
 
 ---
 
-<table>
-  <tr>
-    <td valign="top" width="65%">
-      <h3>▸ Active Missions</h3>
+## Projetos
 
-| Project | Status | Stack |
-|---------|--------|-------|
-| [Análise do Mercado de Dados 2025](https://github.com/Gabriel-Roledo-ds/Analise-State-of-Data-2025) | 🟢 in progress | Python |
-| [Análise dos top 10 países em Inovação Tecnológica](https://github.com/Gabriel-Roledo-ds/indicadores_de_inovacao_tecnologica) | 🟢 in progress | Python |
-
- 
-
-  </td>
-    <td valign="top" width="35%" align="center">
-      <img src="Vagabond1.jpg" width="60%" />
-    </td>
-  </tr>
-</table>
-
-## `▸ Metrics`
-
-</div>
-
-<div align="center">
-
-![streak](https://github-readme-streak-stats.herokuapp.com/?user=Gabriel-Roledo-ds&theme=midnight-purple&hide_border=true&background=050508&ring=00f5ff&fire=ff0077&currStreakLabel=00f5ff&sideLabels=4a4860&dates=4a4860&sideNums=00f5ff)
-
-</div>
-
-
-<p align="center">
-  <img src="./musashi-miyamoto.gif" width="100%" height="150" />
-</p>
+| Projeto | Status | Stack |
+|---|---|---|
+| [Análise do Mercado de Dados 2025](https://github.com/Gabriel-Roledo-ds/Analise-State-of-Data-2025) | Em andamento | Python |
+| [Indicadores de Inovação Tecnológica](https://github.com/Gabriel-Roledo-ds/indicadores_de_inovacao_tecnologica) | Em andamento | Python |
 
 ---
 
-<div align="center">
+## Métricas do GitHub
 
-*"If you had to run your life again forever...*
-*would you press* `ENTER`*?"*
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=Gabriel-Roledo-ds&show_icons=true&theme=default&hide_border=true&hide_title=true)
 
-*— Nietzsche · The Daemon*
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Gabriel-Roledo-ds&theme=default&hide_border=true)
 
-<br/>
+---
 
-
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:050508,50:0a0a18,100:050508&height=100&section=footer&animation=fadeIn)
-
-</div>
+**Contato:** [LinkedIn](#) · [GitHub](https://github.com/Gabriel-Roledo-ds)
