@@ -33,14 +33,7 @@ Estudante de Ciência de Dados com foco em Análise de Dados, Estatística e Int
 - Tecnólogo em Ciência de Dados — Fatec Ourinhos (em andamento)
 - Análise e Ciência de Dados — PoD Academy (em andamento)
 
----
 
-## Projetos
-
-| Projeto | Status | Stack |
-|---|---|---|
-| [Análise do Mercado de Dados 2025](https://github.com/Gabriel-Roledo-ds/Analise-State-of-Data-2025) | Em andamento | Python |
-| [Indicadores de Inovação Tecnológica](https://github.com/Gabriel-Roledo-ds/indicadores_de_inovacao_tecnologica) | Em andamento | Python |
 
 ---
 
